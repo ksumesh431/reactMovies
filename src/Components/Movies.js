@@ -121,11 +121,6 @@ export default class Movies extends Component {
                 {
                     (this.state.movies.length === 0) ?
                         <div className='container spin'>
-                            {/* <div style={{ marginTop: 10 + "rem" }} className="d-flex justify-content-center">
-                                <div className="spinner-border" role="status">
-                                    <span className="visually-hidden">Loading...</span>
-                                </div>
-                            </div> */}
                             <button style={{ marginTop: 10 + "rem" }} class="btn btn-primary" type="button" disabled>
                                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                                 Loading...
